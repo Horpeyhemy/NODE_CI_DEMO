@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: SelfHostedPool
+  name: Azure pipelines
 
 steps:
 - task: NodeTool@0
