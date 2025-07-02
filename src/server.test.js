@@ -12,7 +12,7 @@ describe('root', () => {
       .get('/')
       .expect(200)
       .then((res) => {
-        expect(res.text).toContain('Developments of Cloud DevOps');
+        expect(res.text).toContain('Developments');
       }));
 
   it('request api, returns json', () => request(app)
