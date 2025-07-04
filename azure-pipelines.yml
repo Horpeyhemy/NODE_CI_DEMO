@@ -68,6 +68,6 @@ stages:
             inputs:
               azureSubscription: 'Opeyemi'
               appType: 'webApp'
-              appName: 'devops-class-funcapp'
+              appName: 'Opeyemi'
               package: '$(Pipeline.Workspace)/drop/app.zip'
             displayName: 'Deploy to Azure App Service'
